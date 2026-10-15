@@ -1,0 +1,34 @@
+name: Exact candidate checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  exact:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ['3.11', '3.12', '3.13']
+        optimized: [false, true]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Verify scientific inputs and complete frozen payload
+        run: |
+          sha256sum -c MANIFEST.sha256
+          sha256sum -c RELEASE_MANIFEST.sha256
+      - name: Run all exact entry points
+        shell: bash
+        env:
+          OPTIMIZED: ${{ matrix.optimized }}
+        run: |
+          args=(-B)
+          if [[ "$OPTIMIZED" == "true" ]]; then args+=(-O); fi
+          for suite in verify_release.py test_sharp_coefficient.py completion_exact.py vector_exact.py; do
+            python "${args[@]}" "$suite"
+          done

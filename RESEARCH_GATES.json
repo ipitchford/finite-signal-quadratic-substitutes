@@ -1,0 +1,301 @@
+{
+  "schemaVersion": "1.0",
+  "inputBinding": {
+    "manuscriptSha256": "f0a6c4418fcdba0a22470747cd85e1f581adf1c344ca3030b5a06d84185058b4",
+    "sourceArchiveSha256": "6ce26064eee0afd53c3f1eab42397f86075cbde8b745c1a6a97e793e850f3541",
+    "packagingManuscriptSha256": "e3e4a5e3dbab7285cae0d55149014e900f269e9c5927c18dd724205838f8200e"
+  },
+  "contributionMap": [
+    {
+      "claim": "For every finite scalar table, universal residual variance domination is equivalent to simultaneous row-loss completions at each distinct source mean.",
+      "unit": "statement",
+      "paperLocation": "Theorem thm:completion",
+      "searches": [
+        {
+          "date": "2026-10-15",
+          "query": "\"informational substitutes\" \"second order cone\"; \"quadratic\" \"informational substitutes\" convex optimization certificate",
+          "corpus": "Documented web/primary-source comparisons; see EXTENSION_PRIOR_ART.md and NOVELTY_REFRESH.md"
+        }
+      ],
+      "closestPriorWork": "Binary predecessor Theorem 2; Sion Theorem 3.4 supplies minimax, not the scalar-knot equivalence.",
+      "verdict": "new-in-bounded-search"
+    },
+    {
+      "claim": "Compact convex minimax exchange for quadratic row losses.",
+      "unit": "method",
+      "paperLocation": "Proof of thm:completion",
+      "searches": [
+        {
+          "date": "2026-10-15",
+          "query": "Sion minimax theorem",
+          "corpus": "Documented web/primary-source comparisons; see EXTENSION_PRIOR_ART.md and NOVELTY_REFRESH.md"
+        }
+      ],
+      "closestPriorWork": "Sion (1958), Theorem 3.4.",
+      "verdict": "known-cited"
+    },
+    {
+      "claim": "Ordered scalar interpolation in row-dependent seminorms reduces all centers to source-mean knots.",
+      "unit": "method",
+      "paperLocation": "Proof of thm:completion; full-support sharp theorem",
+      "searches": [
+        {
+          "date": "2026-10-15",
+          "query": "\"Lipschitz\" \"row-dependent\" norms interpolation; \"variance\" \"Lipschitz\" \"pairwise\" \"conditional\" interpolation",
+          "corpus": "Documented web/primary-source comparisons; see EXTENSION_PRIOR_ART.md and NOVELTY_REFRESH.md"
+        }
+      ],
+      "closestPriorWork": "Classical minimax and interpolation ingredients; exact simultaneous completion application not located in bounded screen.",
+      "verdict": "new-in-bounded-search"
+    },
+    {
+      "claim": "Attained finite convex sharp coefficient, finite iff equal-mean rows agree on common supported cells; rational strict rejection witnesses.",
+      "unit": "statement",
+      "paperLocation": "cor:completion-coefficient; prop:completion-rational",
+      "searches": [
+        {
+          "date": "2026-10-15",
+          "query": "\"variance comparison\" \"completion\" \"quadratic\"; simultaneous ellipsoid intersection",
+          "corpus": "Documented web/primary-source comparisons; see EXTENSION_PRIOR_ART.md and NOVELTY_REFRESH.md"
+        }
+      ],
+      "closestPriorWork": "Lobo et al. \u00a72.1 standard conic/QCQP machinery; no exact solver or bit-complexity novelty claimed.",
+      "verdict": "new-in-bounded-search"
+    },
+    {
+      "claim": "Full-support sharp directed-pair coefficient and fixed-prior normalized gap formula.",
+      "unit": "statement",
+      "paperLocation": "thm:sharp; eq:normalised",
+      "searches": [
+        {
+          "date": "2026-10-15",
+          "query": "\"conditional variance\" \"pairwise\" \"contraction coefficient\"; strong data processing constant binary input distributions",
+          "corpus": "Documented web/primary-source comparisons; see EXTENSION_PRIOR_ART.md and NOVELTY_REFRESH.md"
+        }
+      ],
+      "closestPriorWork": "Binary predecessor Theorem 2 and Corollary 2.1; Ordentlich\u2013Polyanskiy Theorems 1\u20132 binary extremal reduction for different coefficients.",
+      "verdict": "partially-known-cited"
+    },
+    {
+      "claim": "Sparse sharp family and full-support vector counterexample with categorical realization.",
+      "unit": "object",
+      "paperLocation": "prop:sparse; eq:completion-sparse-sharp; prop:vector-obstruction",
+      "searches": [
+        {
+          "date": "2026-10-15",
+          "query": "informational substitutes pairwise means; sparse support completion; vector quadratic informational substitutes",
+          "corpus": "Documented web/primary-source comparisons; see EXTENSION_PRIOR_ART.md and NOVELTY_REFRESH.md"
+        }
+      ],
+      "closestPriorWork": "Binary predecessor allows vector targets for binary source; not arbitrary-source pairwise sufficiency.",
+      "verdict": "new-in-bounded-search"
+    },
+    {
+      "claim": "Posterior splitting and mean-scoring framework.",
+      "unit": "method",
+      "paperLocation": "Posterior identity and embedding; Section 2",
+      "searches": [
+        {
+          "date": "2026-10-15",
+          "query": "quadratic strong substitutes finite signals; Structure and Design of Informational Substitutes quadratic",
+          "corpus": "Documented web/primary-source comparisons; see EXTENSION_PRIOR_ART.md and NOVELTY_REFRESH.md"
+        }
+      ],
+      "closestPriorWork": "Chen\u2013Waggoner Definition 2.2.3; Kong\u2013Schoenebeck support reduction; Anunrojwong thesis Definition 2.21.",
+      "verdict": "known-cited"
+    }
+  ],
+  "sourcesReadInFull": [
+    {
+      "citation": "Chen\u2013Waggoner 2017",
+      "usedFor": "Definition and disclosure quantifiers",
+      "readWhat": "Definition 2.2.3 and footnote 4; convex-score/Bregman passages",
+      "date": "2026-10-15",
+      "evidenceLocator": "PRIOR_ART.md; review-evidence/domain.md",
+      "provenance": "Documented project primary-text inspection, not a new full-source read during packaging; exact sections only."
+    },
+    {
+      "citation": "Evidence Press binary predecessor v1.1.0",
+      "usedFor": "Inherited binary endpoint criterion and vector binary scope",
+      "readWhat": "Theorem 2, overlap set, constant-source convention and Corollary 2.1",
+      "date": "2026-10-15",
+      "evidenceLocator": "review-evidence/MANUSCRIPT_REVISION_RESPONSE.md; review-evidence/REVISION_VERIFICATION.md",
+      "provenance": "Documented project primary-text inspection, not a new full-source read during packaging; exact sections only."
+    },
+    {
+      "citation": "Kong\u2013Schoenebeck 2018",
+      "usedFor": "Established posterior optimization/support reduction",
+      "readWhat": "Optimization and support-reduction statements",
+      "date": "2026-10-15",
+      "evidenceLocator": "PRIOR_ART.md item 4",
+      "provenance": "Documented project primary-text inspection, not a new full-source read during packaging; exact sections only."
+    },
+    {
+      "citation": "Anunrojwong, Chen, Waggoner and Xu 2020",
+      "usedFor": "Distinguish optimal garbling from universal certification",
+      "readWhat": "Introduction, Theorems 3\u20135 and conclusion",
+      "date": "2026-10-15",
+      "evidenceLocator": "PRIOR_ART.md item 3",
+      "provenance": "Documented project primary-text inspection, not a new full-source read during packaging; exact sections only."
+    },
+    {
+      "citation": "Anunrojwong 2018 thesis",
+      "usedFor": "Mean scoring, earlier quantifiers, design distinction",
+      "readWhat": "Definitions 2.8\u20132.9, 2.21; Theorem 4.2; additional exact inspected locators in novelty note, not all thesis pages",
+      "date": "2026-10-15",
+      "evidenceLocator": "NOVELTY_REFRESH.md \u00a71; review-evidence/domain.md; review-evidence/MANUSCRIPT_REVISION_RESPONSE.md",
+      "provenance": "Documented project primary-text inspection, not a new full-source read during packaging; exact sections only."
+    },
+    {
+      "citation": "Ordentlich\u2013Polyanskiy 2020",
+      "usedFor": "Binary-input SDPI comparison",
+      "readWhat": "Both PDF pages: Theorems 1\u20132, proofs and post-SDPI discussion",
+      "date": "2026-10-15",
+      "evidenceLocator": "NOVELTY_REFRESH.md \u00a72",
+      "provenance": "Documented project primary-text inspection, not a new full-source read during packaging; exact sections only."
+    },
+    {
+      "citation": "Sion 1958",
+      "usedFor": "Load-bearing minimax theorem",
+      "readWhat": "Theorem 3.4, p.174; compactness, continuity and convexity hypotheses",
+      "date": "2026-10-15",
+      "evidenceLocator": "EXTENSION_PRIOR_ART.md; https://msp.org/pjm/1958/8-1/pjm-v8-n1-p14-p.pdf",
+      "provenance": "Documented project primary-text inspection, not a new full-source read during packaging; exact sections only."
+    },
+    {
+      "citation": "Lobo et al. 1998",
+      "usedFor": "Standard conic formulation",
+      "readWhat": "\u00a72.1 convex quadratically constrained quadratic programming",
+      "date": "2026-10-15",
+      "evidenceLocator": "CITATION_AUDIT.md; https://web.stanford.edu/~boyd/papers/pdf/socp.pdf",
+      "provenance": "Documented project primary-text inspection, not a new full-source read during packaging; exact sections only."
+    },
+    {
+      "citation": "Shah\u2013Mandal\u2013Azhar 2026",
+      "usedFor": "Finite-action comparison, not continuous quadratic prediction",
+      "readWhat": "\u00a72 finite actions/PWLC and Remark 7",
+      "date": "2026-10-15",
+      "evidenceLocator": "CITATION_AUDIT.md; https://arxiv.org/html/2604.01443",
+      "provenance": "Documented project primary-text inspection, not a new full-source read during packaging; exact sections only."
+    }
+  ],
+  "limitationTriage": [
+    {
+      "limitation": "Full-support restriction",
+      "closingQuestion": "Can simultaneous completions characterize all scalar supports?",
+      "triedOrSearched": "EXTENSION_PRIOR_ART.md; integrated minimax/interpolation proof and sparse exact suite",
+      "estimatedCost": "Completed; no reliable elapsed-work estimate recorded.",
+      "cheap": true,
+      "decision": "CLOSED",
+      "reasonOpen": "",
+      "whyNotClosedNow": ""
+    },
+    {
+      "limitation": "Vector targets",
+      "closingQuestion": "Does directed pairwise sufficiency extend? Can another finite vector characterization hold?",
+      "triedOrSearched": "Explicit full-support two-dimensional counterexample and categorical scaling; vector_exact.py",
+      "estimatedCost": "Not estimated; substantive research or independent assessment, not a packaging operation.",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "Pairwise extension disproved; complete vector characterization not developed or claimed.",
+      "whyNotClosedNow": "Pairwise extension disproved; complete vector characterization not developed or claimed."
+    },
+    {
+      "limitation": "General proper scoring rules",
+      "closingQuestion": "Does a replacement for quadratic row-loss geometry give a finite criterion?",
+      "triedOrSearched": "Prior-art framework comparisons in PRIOR_ART.md; no general theorem derived",
+      "estimatedCost": "Not estimated; substantive research or independent assessment, not a packaging operation.",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "Different loss geometry requires new theory; not a correctness repair.",
+      "whyNotClosedNow": "Different loss geometry requires new theory; not a correctness repair."
+    },
+    {
+      "limitation": "Arbitrary pairs of partial disclosures and more than two base signals",
+      "closingQuestion": "Can the same universal criterion handle these quantifiers?",
+      "triedOrSearched": "Chen\u2013Waggoner definition comparison; manuscript explicitly restricts orientation and two signals",
+      "estimatedCost": "Not estimated; substantive research or independent assessment, not a packaging operation.",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "Not solved by current posterior/row-loss reduction.",
+      "whyNotClosedNow": "Not solved by current posterior/row-loss reduction."
+    },
+    {
+      "limitation": "Exact model versus estimated tables",
+      "closingQuestion": "Can confidence regions control support and near-coincident mean uncertainty?",
+      "triedOrSearched": "Manuscript sensitivity discussion; no finite-sample study or guarantee performed",
+      "estimatedCost": "Not estimated; substantive research or independent assessment, not a packaging operation.",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "Requires statistical uncertainty theory beyond exact-table classification.",
+      "whyNotClosedNow": "Requires statistical uncertainty theory beyond exact-table classification."
+    },
+    {
+      "limitation": "Exact boundary decision and complexity",
+      "closingQuestion": "Does the QCQP admit a general exact solver, rational optima or polynomial certificates?",
+      "triedOrSearched": "Rational strict rejection proof; forced-coordinate preprocessing; exact supplied-certificate checker",
+      "estimatedCost": "Not estimated; substantive research or independent assessment, not a packaging operation.",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "Existence of strict rational rejection does not settle algebraic boundary complexity.",
+      "whyNotClosedNow": "Existence of strict rational rejection does not settle algebraic boundary complexity."
+    },
+    {
+      "limitation": "Absolute gap and downstream economic consequences",
+      "closingQuestion": "Does normalized coefficient solve optimal absolute disclosure or equilibrium behavior?",
+      "triedOrSearched": "Normalized fixed-prior construction and explicit sparse screening comparison; reviews distinguish optimization tasks",
+      "estimatedCost": "Not estimated; substantive research or independent assessment, not a packaging operation.",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "Absolute objective and strategic predictions are not proved by normalized ratio.",
+      "whyNotClosedNow": "Absolute objective and strategic predictions are not proved by normalized ratio."
+    },
+    {
+      "limitation": "Historical priority and significance uncertainty",
+      "closingQuestion": "Does a prior minimax-risk or seminorm-extension theorem imply the exact characterization?",
+      "triedOrSearched": "Bounded search records and five academic reports; domain dissent retained",
+      "estimatedCost": "Not estimated; substantive research or independent assessment, not a packaging operation.",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "No exhaustive citation-chain or independent specialist clearance; meaningful 2/3 uncertainty remains.",
+      "whyNotClosedNow": "No exhaustive citation-chain or independent specialist clearance; meaningful 2/3 uncertainty remains."
+    },
+    {
+      "limitation": "Formal verification and independent replication",
+      "closingQuestion": "Can all analytic claims be independently formalized?",
+      "triedOrSearched": "Complete informal proofs, analytic reviews and supplied-code normal/optimized replays",
+      "estimatedCost": "Not estimated; substantive research or independent assessment, not a packaging operation.",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "No proof assistant or independent full implementation; neither claimed.",
+      "whyNotClosedNow": "No proof assistant or independent full implementation; neither claimed."
+    },
+    {
+      "limitation": "Optional exposition and regression gaps",
+      "closingQuestion": "Can cheap clarifications and repeated-mean/categorical checks improve auditability?",
+      "triedOrSearched": "Revision response and exact-input verification; 2045 sparse checks and 19 categorical checks",
+      "estimatedCost": "Completed; no reliable elapsed-work estimate recorded.",
+      "cheap": true,
+      "decision": "CLOSED",
+      "reasonOpen": "",
+      "whyNotClosedNow": ""
+    }
+  ],
+  "extensionScout": {
+    "by": "AI mathematical development and academic-review roles; packaging compilation of recorded evidence",
+    "date": "2026-10-15",
+    "proposals": [
+      "Remove structural-zero limitation via simultaneous completions.",
+      "Test vector generalization and categorical realization.",
+      "Add compatible equal-mean sparse regression and direct categorical scaling checks.",
+      "Improve predecessor map, screening interpretation and conic-boundary caveats."
+    ],
+    "actions": [
+      "Completion theorem, finiteness/attainment and rational rejection integrated and academically reviewed.",
+      "Explicit full-support vector failure proved; no general vector theory claimed.",
+      "Implemented and revision-verified: 2045 sparse checks, 19 categorical checks.",
+      "Optional revisions verified without changing theorem scope or upgrading provisional rating."
+    ]
+  },
+  "assessmentBoundary": "Schema completeness does not imply research adequacy. Simulated academic acceptance and provisional approximately-3-star judgment retain meaningful 2/3 uncertainty and domain dissent; separate publishing panel pending."
+}

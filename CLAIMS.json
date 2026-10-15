@@ -1,0 +1,171 @@
+{
+  "schema_version": "1.0",
+  "title": "Finite convex certificates for quadratic informational substitutes",
+  "creator": "Anonymous",
+  "package_version": "0.1.0-candidate",
+  "status": "Unpublished local candidate; provisional approximately-3-star simulated academic assessment, with meaningful 2/3 uncertainty; not externally peer reviewed. Separate publishing panel, DOI binding and publication pending.",
+  "manuscript_sha256": "e3e4a5e3dbab7285cae0d55149014e900f269e9c5927c18dd724205838f8200e",
+  "claims": [
+    {
+      "id": "posterior-reduction",
+      "statement": "For finite signals, scalar square-integrable target, positive source prior and T independent of (B,Y) conditional on A, G(T)=E[D-N]; any posterior embeds at the fixed prior.",
+      "manuscript": "paper.tex",
+      "locator": "eq:identity; eq:embed; sec:completion",
+      "assumptions": [
+        "Arbitrary structural zeros allowed with supported-cell conventions"
+      ],
+      "exclusions": [
+        "No target-dependent disclosure randomness"
+      ],
+      "proof_evidence": "Written analytic proof in the manuscript; not formally verified",
+      "supplementary_checks": [
+        "verify_release.py",
+        "completion_exact.py"
+      ],
+      "assessment": "Accepted on scoped mathematical grounds in simulated academic synthesis; revised-input verification preserves qualified assessment; not formal or external peer review."
+    },
+    {
+      "id": "completion-equivalence",
+      "statement": "For finite C>=0, N(q)<=C D(q) for every posterior iff every distinct scalar source mean has a simultaneous row-loss completion.",
+      "manuscript": "paper.tex",
+      "locator": "thm:completion",
+      "assumptions": [
+        "Finite signal alphabets",
+        "Scalar target",
+        "Nonnegative stochastic rows"
+      ],
+      "exclusions": [
+        "Not pairwise sufficiency under sparse support",
+        "Not a vector-target theorem"
+      ],
+      "proof_evidence": "Written analytic proof in the manuscript; not formally verified",
+      "supplementary_checks": [
+        "completion_exact.py"
+      ],
+      "assessment": "Accepted on scoped mathematical grounds in simulated academic synthesis; revised-input verification preserves qualified assessment; not formal or external peer review."
+    },
+    {
+      "id": "finite-convex-coefficient",
+      "statement": "The sharp coefficient is the extended-real value of a convex QCQP; fixed-C knot systems are SOCP representable; finite value is attained.",
+      "manuscript": "paper.tex",
+      "locator": "cor:completion-coefficient; eq:completion-QCQP",
+      "assumptions": [
+        "Same scalar model"
+      ],
+      "exclusions": [
+        "No general solver implementation",
+        "No exact floating-point boundary decision",
+        "No bit-complexity bound"
+      ],
+      "proof_evidence": "Written analytic proof in the manuscript; not formally verified",
+      "supplementary_checks": [
+        "completion_exact.py"
+      ],
+      "assessment": "Accepted on scoped mathematical grounds in simulated academic synthesis; revised-input verification preserves qualified assessment; not formal or external peer review."
+    },
+    {
+      "id": "equal-mean-compatibility",
+      "statement": "The coefficient is finite iff equal-mean source rows agree on every column they both support.",
+      "manuscript": "paper.tex",
+      "locator": "eq:completion-compatible",
+      "assumptions": [
+        "Only supported cell means have semantic meaning"
+      ],
+      "exclusions": [
+        "No required equality on nonexistent cells"
+      ],
+      "proof_evidence": "Written analytic proof in the manuscript; not formally verified",
+      "supplementary_checks": [
+        "completion_exact.py"
+      ],
+      "assessment": "Accepted on scoped mathematical grounds in simulated academic synthesis; revised-input verification preserves qualified assessment; not formal or external peer review."
+    },
+    {
+      "id": "rational-rejection",
+      "statement": "Rational model and finite rational threshold with failed completion admit a rational posterior with N>C D; at C=1 a rational positive prior admits a rational rejecting disclosure.",
+      "manuscript": "paper.tex",
+      "locator": "prop:completion-rational",
+      "assumptions": [
+        "Strict violation"
+      ],
+      "exclusions": [
+        "No rational primal optimum guarantee",
+        "No polynomial certificate-length bound"
+      ],
+      "proof_evidence": "Written analytic proof in the manuscript; not formally verified",
+      "supplementary_checks": [
+        "completion_exact.py"
+      ],
+      "assessment": "Accepted on scoped mathematical grounds in simulated academic synthesis; revised-input verification preserves qualified assessment; not formal or external peer review."
+    },
+    {
+      "id": "full-support-sharp",
+      "statement": "Under full rectangular support C* equals the directed-pair maximum, except incompatible equal-mean rows give infinity; finite nonconstant cases have normalized gap infimum 1-C* at every positive prior.",
+      "manuscript": "paper.tex",
+      "locator": "thm:sharp; eq:normalised",
+      "assumptions": [
+        "Scalar target",
+        "Positive mass in every signal cell"
+      ],
+      "exclusions": [
+        "Infimum need not be attained",
+        "No prior-independent absolute gap"
+      ],
+      "proof_evidence": "Written analytic proof in the manuscript; not formally verified",
+      "supplementary_checks": [
+        "verify_release.py",
+        "test_sharp_coefficient.py"
+      ],
+      "assessment": "Accepted on scoped mathematical grounds in simulated academic synthesis; revised-input verification preserves qualified assessment; not formal or external peer review."
+    },
+    {
+      "id": "sparse-family",
+      "statement": "The displayed sparse family has coefficient 4a^2/(a+b)^2: 16/9 at (1,1/2), 4/9 at (1/2,1); all binary restrictions may pass while a three-state posterior fails.",
+      "manuscript": "paper.tex",
+      "locator": "prop:sparse; eq:completion-sparse-sharp",
+      "assumptions": [
+        "Specified three-row family",
+        "One orientation"
+      ],
+      "exclusions": [
+        "No both-orientation binary claim"
+      ],
+      "proof_evidence": "Written analytic proof in the manuscript; not formally verified",
+      "supplementary_checks": [
+        "completion_exact.py"
+      ],
+      "assessment": "Accepted on scoped mathematical grounds in simulated academic synthesis; revised-input verification preserves qualified assessment; not formal or external peer review."
+    },
+    {
+      "id": "vector-boundary",
+      "statement": "The explicit full-support two-dimensional table has six positive directed margins and negative uniform residual; every binary posterior passes by edge concavity; a four-category positive probability embedding preserves signs.",
+      "manuscript": "paper.tex",
+      "locator": "prop:vector-obstruction",
+      "assumptions": [
+        "Specified table",
+        "One orientation",
+        "Quadratic vector value"
+      ],
+      "exclusions": [
+        "Not a scalar counterexample",
+        "Not category minimality",
+        "Not impossibility of all vector criteria"
+      ],
+      "proof_evidence": "Written analytic proof in the manuscript; not formally verified",
+      "supplementary_checks": [
+        "vector_exact.py"
+      ],
+      "assessment": "Accepted on scoped mathematical grounds in simulated academic synthesis; revised-input verification preserves qualified assessment; not formal or external peer review."
+    }
+  ],
+  "global_exclusions": [
+    "External peer review",
+    "Formal verification",
+    "Exhaustive historical novelty",
+    "General proper-scoring-rule classification",
+    "Arbitrary pairs of partial disclosures",
+    "More than two base signals",
+    "Statistical estimation guarantees"
+  ],
+  "scientific_source_sha256": "f0a6c4418fcdba0a22470747cd85e1f581adf1c344ca3030b5a06d84185058b4"
+}

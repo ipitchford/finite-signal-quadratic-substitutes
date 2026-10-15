@@ -1,0 +1,65 @@
+[
+  {
+    "command": [
+      "/opt/homebrew/opt/python@3.14/bin/python3.14",
+      "-B",
+      "verify_release.py"
+    ],
+    "returncode": 0,
+    "stdout": "{\"directions\": 600, \"invalid_inputs\": 4, \"negative_controls\": 3, \"negative_witnesses\": 586, \"positive_posteriors\": 140, \"sparse_edges\": 57}\n{\n  \"checks\": 45,\n  \"checks_use_assert\": false,\n  \"edge_sequences\": [\n    {\n      \"model\": \"positive\",\n      \"s\": \"1/2\",\n      \"ratio\": \"410/2601\",\n      \"bound\": \"100/289\",\n      \"normalized_gap\": \"2191/2601\"\n    },\n    {\n      \"model\": \"positive\",\n      \"s\": \"1/10\",\n      \"ratio\": \"84410/358649\",\n      \"bound\": \"100/289\",\n      \"normalized_gap\": \"274239/358649\"\n    },\n    {\n      \"model\": \"positive\",\n      \"s\": \"1/100\",\n      \"ratio\": \"8048510/24521939\",\n      \"bound\": \"100/289\",\n      \"normalized_gap\": \"16473429/24521939\"\n    },\n    {\n      \"model\": \"positive\",\n      \"s\": \"1/1000\",\n      \"ratio\": \"800489510/2326146839\",\n      \"bound\": \"100/289\",\n      \"normalized_gap\": \"1525657329/2326146839\"\n    },\n    {\n      \"model\": \"positive\",\n      \"s\": \"1/10000\",\n      \"ratio\": \"80004899510/231341595839\",\n      \"bound\": \"100/289\",\n      \"normalized_gap\": \"151336696329/231341595839\"\n    },\n    {\n      \"model\": \"violation\",\n      \"s\": \"1/2\",\n      \"ratio\": \"2\",\n      \"bound\": \"2\",\n      \"normalized_gap\": \"-1\"\n    },\n    {\n      \"model\": \"violation\",\n      \"s\": \"1/10\",\n      \"ratio\": \"2\",\n      \"bound\": \"2\",\n      \"normalized_gap\": \"-1\"\n    },\n    {\n      \"model\": \"violation\",\n      \"s\": \"1/100\",\n      \"ratio\": \"2\",\n      \"bound\": \"2\",\n      \"normalized_gap\": \"-1\"\n    },\n    {\n      \"model\": \"violation\",\n      \"s\": \"1/1000\",\n      \"ratio\": \"2\",\n      \"bound\": \"2\",\n      \"normalized_gap\": \"-1\"\n    },\n    {\n      \"model\": \"violation\",\n      \"s\": \"1/10000\",\n      \"ratio\": \"2\",\n      \"bound\": \"2\",\n      \"normalized_gap\": \"-1\"\n    }\n  ]\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/opt/homebrew/opt/python@3.14/bin/python3.14",
+      "-B",
+      "completion_exact.py"
+    ],
+    "returncode": 0,
+    "stdout": "{\"checks\": 2045, \"arithmetic\": \"rational\", \"assert_independent\": true, \"sparse_sharp_coefficient\": \"16/9\", \"last_edge_ratio\": \"160000/90009\"}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/opt/homebrew/opt/python@3.14/bin/python3.14",
+      "-B",
+      "vector_exact.py"
+    ],
+    "returncode": 0,
+    "stdout": "x [[Fraction(299, 200), Fraction(649, 1000)], [Fraction(-1399, 1000), Fraction(49, 500)], [Fraction(93, 125), Fraction(-283, 200)]]\npair 0 1 margin 830137/1000000 ratio 7848700/8678837\npair 0 2 margin 294197/1000000 ratio 4529900/4824097\npair 1 0 margin 754737/1000000 ratio 7924100/8678837\npair 1 2 margin 278909/500000 ratio 3161900/3440809\npair 2 0 margin 438797/1000000 ratio 4385300/4824097\npair 2 1 margin 304409/500000 ratio 3136400/3440809\nD 2548069/1125000 N 3614189317/1483020000 gap -708952329/4119500000 R 4529900/4824097 N/D 90354732925/83974161964\nscores VA,VAB,VB,V0 897349/375000 3689/1250 762499307/1483020000 71989/562500 gap -708952329/4119500000\ncategorical checks 19 D 2548069/225000000 N 3614189317/296604000000 gap -708952329/823900000000 scale 1/200\nPASS: positive full support, all six strict directed tests, negative global gap\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/opt/homebrew/opt/python@3.14/bin/python3.14",
+      "-B",
+      "-O",
+      "verify_release.py"
+    ],
+    "returncode": 0,
+    "stdout": "{\"directions\": 600, \"invalid_inputs\": 4, \"negative_controls\": 3, \"negative_witnesses\": 586, \"positive_posteriors\": 140, \"sparse_edges\": 57}\n{\n  \"checks\": 45,\n  \"checks_use_assert\": false,\n  \"edge_sequences\": [\n    {\n      \"model\": \"positive\",\n      \"s\": \"1/2\",\n      \"ratio\": \"410/2601\",\n      \"bound\": \"100/289\",\n      \"normalized_gap\": \"2191/2601\"\n    },\n    {\n      \"model\": \"positive\",\n      \"s\": \"1/10\",\n      \"ratio\": \"84410/358649\",\n      \"bound\": \"100/289\",\n      \"normalized_gap\": \"274239/358649\"\n    },\n    {\n      \"model\": \"positive\",\n      \"s\": \"1/100\",\n      \"ratio\": \"8048510/24521939\",\n      \"bound\": \"100/289\",\n      \"normalized_gap\": \"16473429/24521939\"\n    },\n    {\n      \"model\": \"positive\",\n      \"s\": \"1/1000\",\n      \"ratio\": \"800489510/2326146839\",\n      \"bound\": \"100/289\",\n      \"normalized_gap\": \"1525657329/2326146839\"\n    },\n    {\n      \"model\": \"positive\",\n      \"s\": \"1/10000\",\n      \"ratio\": \"80004899510/231341595839\",\n      \"bound\": \"100/289\",\n      \"normalized_gap\": \"151336696329/231341595839\"\n    },\n    {\n      \"model\": \"violation\",\n      \"s\": \"1/2\",\n      \"ratio\": \"2\",\n      \"bound\": \"2\",\n      \"normalized_gap\": \"-1\"\n    },\n    {\n      \"model\": \"violation\",\n      \"s\": \"1/10\",\n      \"ratio\": \"2\",\n      \"bound\": \"2\",\n      \"normalized_gap\": \"-1\"\n    },\n    {\n      \"model\": \"violation\",\n      \"s\": \"1/100\",\n      \"ratio\": \"2\",\n      \"bound\": \"2\",\n      \"normalized_gap\": \"-1\"\n    },\n    {\n      \"model\": \"violation\",\n      \"s\": \"1/1000\",\n      \"ratio\": \"2\",\n      \"bound\": \"2\",\n      \"normalized_gap\": \"-1\"\n    },\n    {\n      \"model\": \"violation\",\n      \"s\": \"1/10000\",\n      \"ratio\": \"2\",\n      \"bound\": \"2\",\n      \"normalized_gap\": \"-1\"\n    }\n  ]\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/opt/homebrew/opt/python@3.14/bin/python3.14",
+      "-B",
+      "-O",
+      "completion_exact.py"
+    ],
+    "returncode": 0,
+    "stdout": "{\"checks\": 2045, \"arithmetic\": \"rational\", \"assert_independent\": true, \"sparse_sharp_coefficient\": \"16/9\", \"last_edge_ratio\": \"160000/90009\"}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/opt/homebrew/opt/python@3.14/bin/python3.14",
+      "-B",
+      "-O",
+      "vector_exact.py"
+    ],
+    "returncode": 0,
+    "stdout": "x [[Fraction(299, 200), Fraction(649, 1000)], [Fraction(-1399, 1000), Fraction(49, 500)], [Fraction(93, 125), Fraction(-283, 200)]]\npair 0 1 margin 830137/1000000 ratio 7848700/8678837\npair 0 2 margin 294197/1000000 ratio 4529900/4824097\npair 1 0 margin 754737/1000000 ratio 7924100/8678837\npair 1 2 margin 278909/500000 ratio 3161900/3440809\npair 2 0 margin 438797/1000000 ratio 4385300/4824097\npair 2 1 margin 304409/500000 ratio 3136400/3440809\nD 2548069/1125000 N 3614189317/1483020000 gap -708952329/4119500000 R 4529900/4824097 N/D 90354732925/83974161964\nscores VA,VAB,VB,V0 897349/375000 3689/1250 762499307/1483020000 71989/562500 gap -708952329/4119500000\ncategorical checks 19 D 2548069/225000000 N 3614189317/296604000000 gap -708952329/823900000000 scale 1/200\nPASS: positive full support, all six strict directed tests, negative global gap\n",
+    "stderr": ""
+  }
+]

@@ -1,0 +1,9 @@
+Local preparation observations (not research-history reconstruction)
+Python: 3.14.7
+Pandoc: 3.9
+Scientific checker dependencies: Python standard library only
+Markdown conversion: tools/build_markdown.py invoking Pandoc
+Target CI matrix (not yet executed remotely): Python 3.11, 3.12, 3.13; normal and optimized
+Exact model ID: not evidenced
+Discovery duration, tokens and cost: not evidenced
+PDF toolchain: artifact copied unchanged; no build or page QA in this preparation

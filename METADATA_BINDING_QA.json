@@ -1,0 +1,23 @@
+{
+  "originalSourceSha256": "f0a6c4418fcdba0a22470747cd85e1f581adf1c344ca3030b5a06d84185058b4",
+  "packagingSourceSha256": "e3e4a5e3dbab7285cae0d55149014e900f269e9c5927c18dd724205838f8200e",
+  "packagingPDFSha256": "e4a37a7c63190aa1c21f103eb9a1b330c1bfa298ab9144e7c101ffe4cd511337",
+  "diff": [
+    "--- frozen/paper.tex\n",
+    "+++ packaging/paper.tex\n",
+    "@@ -14,7 +14,8 @@\n",
+    " \\newcommand{\\R}{\\mathbb R}",
+    " \\title{Finite convex certificates for quadratic informational substitutes}",
+    " \\author{Anonymous}",
+    "-\\date{15 October 2026\\\\\\small Version 3 research candidate; not externally peer reviewed}",
+    "+\\date{15 October 2026\\\\\\small Version 0.1.0-candidate; not externally peer reviewed\\\\",
+    "+\\small DOI: \\href{https://doi.org/10.5281/zenodo.23401650}{10.5281/zenodo.23401650}}",
+    " \\begin{document}",
+    " \\maketitle",
+    " \\begin{abstract}"
+  ],
+  "scope": "Exact source comparison permits only date/version/DOI block; compile completed via latexmk, 14 pages. First page freshly rendered and visually inspected. Full revised-PDF visual panel review remains separate.",
+  "fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nMAMYAW+LMRoman17-Regular             Type 1            Custom           yes yes yes     71  0\nKBGKGJ+LMRoman12-Regular             Type 1            Custom           yes yes yes     72  0\nZSRRJJ+LMRoman10-Regular             Type 1            Custom           yes yes yes     73  0\nNEARMT+LMRoman10-Bold                Type 1            Custom           yes yes yes     74  0\nYSCTIS+LMRoman12-Bold                Type 1            Custom           yes yes yes     75  0\nAYEXQX+LMMathItalic10-Regular        Type 1            Custom           yes yes yes     76  0\nCDLFWV+LMMathItalic8-Regular         Type 1            Custom           yes yes yes     77  0\nZSRRJJ+LMRoman10-Regular             Type 1            Custom           yes yes yes     78  0\nDGGBCJ+LMMathSymbols10-Regular       Type 1            Custom           yes yes yes     79  0\nIKIWPL+MSBM10                        Type 1            Builtin          yes yes yes     80  0\nHGRNHN+LMMathExtension10-Regular     Type 1            Custom           yes yes yes     81  0\nYGGPUN+LMRoman8-Regular              Type 1            Custom           yes yes yes     82  0\nEYDULJ+LMMathItalic6-Regular         Type 1            Custom           yes yes yes     83  0\nDZUZQJ+LMMathSymbols8-Regular        Type 1            Custom           yes yes yes    101  0\nXSDBEX+LMRoman10-Italic              Type 1            Custom           yes yes yes    131  0\nXGPSEJ+LMMono10-Regular              Type 1            Custom           yes yes yes    234  0\n",
+  "doi": "10.5281/zenodo.23401650",
+  "state": "reserved; not asserted published"
+}
